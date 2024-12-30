@@ -17,7 +17,7 @@ import torch
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Tokenizer
 
 # load the raw audio file
-audio, rate = librosa.load("C:/Users/macph/Downloads/OSR_us_000_0010_8k.wav", sr = 16000)
+audio, rate = librosa.load("PATH/OSR_us_000_0010_8k.wav", sr = 16000)
 
 # audio is an array of the amplitudes of the waveform sampled at the rate
 print(audio)
